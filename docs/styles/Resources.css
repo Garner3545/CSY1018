@@ -291,15 +291,14 @@
   .text-container {
     display: flex;
     height: 400px;
-    width: 85%;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
+    width: 100%;
     padding-left: 1em;
-    background-color: rgba(255, 111, 0, 0.753);
+    background-color: rgba(160, 160, 160, 0.753);
     justify-content: flex-start;
     text-align: left;
     flex-direction: column;
-    box-shadow: 10px 10px 20px rgba(82, 82, 82, 0.342);
+    padding-left: 3em;
+    padding-top: 1em;
   }
 
   h2 {
@@ -323,25 +322,23 @@
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 0em;
-    overflow:auto;
   }
 
   .picture-container1 {
     display: flex;
-    width: 100%;
+    width: 25%;
+    float: left;
     z-index: 1;
-    align-content: flex-start;
-    
+    align-content: center;
+    justify-content: center;
   }
 
   .Picture1 {
     width: 750px;
     height: 550px;
     position: relative;
-    align-self: auto;
+    align-self: center;
+    margin-right: -25em;
     box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.527);
   }
 
@@ -350,10 +347,10 @@
     position: relative;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 15em 4em 3em 4em;
+    width: 75%;
+    float:right;
+    padding: 5em 4em 8em 28em;
     background-color: rgba(2, 151, 250, 0.589);
-    height: 80em;
     color: rgb(255, 255, 255);
   }
 
@@ -381,31 +378,27 @@
 
   .section2_container {
     display: flex;
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 100%;
     position: relative;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    margin-top: 8em;
-    margin-bottom: 4em;
-    padding-bottom: 0em;
-    overflow:auto;
-    box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.527);
   }
 
   .picture-container2 {
-    margin-top: 8em;
-    margin-bottom: -12em;
+    display: flex;
+    width: 25%;
+    float: left;
     z-index: 1;
+    align-content: center;
+    justify-content: center;
   }
 
   .Picture2 {
-    width: 600px;
-    height: 400px;
+    width: 750px;
+    height: 550px;
     position: relative;
-    align-self: auto;
+    align-self: center;
+    margin-right: -25em;
     box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.527);
   }
 
@@ -414,39 +407,36 @@
     position: relative;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 15em 4em 3em 4em;
+    width: 75%;
+    float:right;
+    padding: 5em 4em 8em 28em;
     background-color: rgba(49, 49, 49, 0.589);
-    height: 80em;
     color: rgb(255, 255, 255);
   }
 
   .section3_container {
     display: flex;
-    width: 85%;
-    margin-right: 7.5%;
-    margin-left: 7.5%;
+    width: 100%;
     position: relative;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    margin-top: 8em;
-    margin-bottom: 4em; 
-    over-flow: auto;
-    box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.527);
   }
 
   .picture-container3 {
-    margin-top: 8em;
-    margin-bottom: -12em;
+    display: flex;
+    width: 25%;
+    float: left;
     z-index: 1;
+    align-content: center;
+    justify-content: center;
   }
 
   .Picture3 {
-    width: 600px;
-    height: 400px;
+    width: 750px;
+    height: 550px;
     position: relative;
-    align-self: auto;
+    align-self: center;
+    margin-right: -25em;
     box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.527);
   }
 
@@ -455,10 +445,10 @@
     position: relative;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 15em 4em 3em 4em;
+    width: 75%;
+    float:right;
+    padding: 5em 4em 8em 28em;
     background-color: rgba(250, 109, 2, 0.541);
-    height: 80em;
     color: rgb(255, 255, 255);
   }
 
@@ -824,7 +814,6 @@
     text-align: center;
     margin-top: 8em;
     margin-bottom: 4em; 
-    over-flow: auto;
     box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.527);
   }
 
@@ -927,7 +916,7 @@ and (max-width: 850px)
   .Icon {
     font-size: 15em;
     margin-top: -2.25em;
-    color: rgba(250, 109, 2, 0.541);
+    color: rgba(68, 68, 68, 0.589);
   }
 
   h1 {
