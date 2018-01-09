@@ -310,7 +310,7 @@
 
   p2 {
     color: rgb(255, 255, 255);
-    font-size: 2.75em;
+    font-size: 2.5em;
     line-height: 1.2em;
     width: 90%;
     padding-top: 1em;
@@ -373,7 +373,7 @@
     margin:0;
     align-self: auto;
     text-align: left;
-    font-size: 2.25em;
+    font-size: 1.75em;
   }
 
   .section2_container {
@@ -395,7 +395,7 @@
 
   .Picture2 {
     width: 750px;
-    height: 550px;
+    height: 475px;
     position: relative;
     align-self: center;
     margin-right: -25em;
@@ -433,7 +433,7 @@
 
   .Picture3 {
     width: 750px;
-    height: 550px;
+    height: 475px;
     position: relative;
     align-self: center;
     margin-right: -25em;
@@ -674,7 +674,7 @@
     margin-left: 7.5%;
     margin-right: 7.5%;
     padding-left: 1em;
-    background-color: rgba(255, 111, 0, 0.753);
+    background-color: rgba(160, 160, 160, 0.753);
     justify-content: flex-start;
     text-align: left;
     flex-direction: column;
@@ -963,7 +963,7 @@ and (max-width: 850px)
     margin-left: 7.5%;
     margin-right: 7.5%;
     padding-left: 1em;
-    background-color: rgba(255, 111, 0, 0.753);
+    background-color: rgba(160, 160, 160, 0.753);
     justify-content: flex-start;
     text-align: left;
     flex-direction: column;
@@ -1242,7 +1242,7 @@ and (max-width: 850px)
     margin-left: 7.5%;
     margin-right: 7.5%;
     padding-left: 1em;
-    background-color: rgba(255, 111, 0, 0.753);
+    background-color: rgba(160, 160, 160, 0.753);
     justify-content: flex-start;
     text-align: left;
     flex-direction: column;
