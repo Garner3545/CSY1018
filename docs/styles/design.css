@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     line-height: 1.68em;
     font-size: 100%;
     position: relative; 
@@ -18,7 +18,6 @@
     background: rgba(0, 0, 0, 0);
     width: 100%;
     height: 90px;
-    position: top; 
     top: 0;
     padding-right: 2em;
     padding-top: 2em;
@@ -39,6 +38,11 @@
     padding: 0 5px 0 5px;
   }
   
+  #diamond {
+    height:45px; 
+    width:50px;
+  }
+
   .main-logo-link2 {
     font-family: 'Aldrich', sans-serif;
     color: rgb(250, 110, 2);
@@ -168,7 +172,6 @@
     text-decoration: none;
     list-style: none;
     list-style-type: none;
-    float: center;
     padding: 0;
   }
   
@@ -202,16 +205,11 @@
     text-decoration: none;
     list-style: none;
     list-style-type: none;
-    float: center;
   }
   
   
   /* This section of code was adopted from Liz's codepen example @ https://codepen.io/lizcoultersmith/pen/bYZEEB */
-  
-  .label-form {
-    display: show;
-  }
-  
+   
   .form-title {
     margin-top: 0;
   }
@@ -352,7 +350,7 @@
     text-decoration: underline;
   }
     
-  p3 {
+  p {
     width: 100%;
     line-height: 1em;
     padding-top: 1em;
@@ -510,7 +508,6 @@
     padding: 0;
     list-style: none;
     max-height: 600px;
-    overflow: show;
     text-decoration: none;
     list-style-type: none;
     float: Right;
@@ -736,7 +733,7 @@
     text-decoration: underline;
   }
     
-  p3 {
+  p {
     width: 100%;
     Padding-top: 1em;
     align-self: auto;
@@ -1000,7 +997,7 @@ and (max-width: 850px)
     text-decoration: underline;
   }
     
-  p3 {
+  p {
     width: 100%;
     Padding-top: 1em;
     align-self: auto;
@@ -1201,13 +1198,6 @@ and (max-width: 850px)
     width: 65%;
   }
 
-  p2 {
-    color: rgb(255, 255, 255);
-    font-size: 1.5em;
-    line-height: 1.2em;
-    width: 90%;
-    padding-top: 1em;
-  }
 .section1_container {
     display: flex;
     width: 85%;
@@ -1258,7 +1248,7 @@ and (max-width: 850px)
     text-decoration: underline;
   }
     
-  p3 {
+  p {
     width: 100%;
     Padding-top: 1em;
     align-self: auto;
