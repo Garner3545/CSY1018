@@ -8,71 +8,69 @@
     <link href="styles/main.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-    <!--C:\Users\elliott\Desktop\Visual Code files - Web development\CSY1018\docs\font-awesome\css\font-awesome.css -->
-</head>
 <body>
-    <section class="landing-page">
+    <div class="landing-page">
         <header class="header">
             <div class="main-logo">
-                <a href="index.html" class="main-logo-link"> <img src="images/Diamond2.png" height="45px" width="50px"></a>
+                <a href="index.html" class="main-logo-link"> <img id="diamond" src="images/Diamond2.png" alt="diamond logo"></a>
                 <a href="index.html" class="main-logo-link2"> <strong> <em class="Title">ALLUR</em> Designs Co.</strong></a> 
             </div>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
                 <ul class="site-nav">
-                    <li><a class="active" href="index.html"><i class="fa fa-users""active" aria-hidden="true"></i>Team</a></li>
+                    <li><a class="active" href="index.html"><i class="fa fa-users" aria-hidden="true"></i>Team</a></li>
                     <li><a href="resources.html"><i class="fa fa-newspaper-o fa-1x" aria-hidden="true"></i>Resources</a></li>
                     <li><a href="design.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Design</a></li>
                     <li><a href="positions.html"><i class="fa fa-street-view" aria-hidden="true"></i>Positions</a></li>
                     <li><a href="glossary.html"><i class="fa fa-sort-alpha-asc" aria-hidden="true"></i>Glossary</a></li>
-                    <li><a href="404page.html"><i class="fa fa-check" aria-hidden="true"></i>Validation</a></li>
+                    <li><a href="validation.html"><i class="fa fa-check" aria-hidden="true"></i>Validation</a></li>
                 </ul>       
         </header>
-    </section>
+    </div>
     <main>
-        <section class="hero-text">
+        <div class="hero-text">
             <section class="container">
                 <h1><strong>For us, It's all about creating great results.</strong></h1>
-                <p1 class="text">So let us take care of your design for you.</p1>
-                <p2 class="text">Become stress free in: 1, 2, 3.</p2>
+                <p class="text">So let us take care of your design for you.</p>
+                <p class="text">Become stress free in: 1, 2, 3.</p>
             </section>
-        </section>
-        <section class="logo-container">
+        </div>
+        <div class="logo-container">
             <img class="Logo" src="images/Logo3.png" alt="Allur Design Co. logo">
-        </section>
+        </div>
         <section>
             <div class="Logo_text">
                 <h1 class="team-title"> Here at the Allur Design Co. We strive to innovate and create the impossible.</h1> 
-                <p2> And you have the fantastic opportunity to meet the team that makes it all happen.</p2>
+                <p class="subheading"> And you have the fantastic opportunity to meet the team that makes it all happen.</p>
             </div>
         </section>
         <section>
             <div class="Picture1_container">
                 <img class="Picture1" src="images/Elliott.jpg.JPG" alt= "Picture of Elliott Garner - Lead Front End Developer">
                 <h2>Elliott Garner - Founder</h2>
-                <p3>Both the founder and lead front end developer for Allur design co. he has created what we know the company to be to this day.</p3>
-                <p3>Like any web company origin story, this all began from his bedroom and is looking to expand once the company takes on more clients.</p3>
+                <p>Both the founder and lead front end developer for Allur design co. he has created what we know the company to be to this day.</p>
+                <p>Like any web company origin story, this all began from his bedroom and is looking to expand once the company takes on more clients.</p>
             </div>
             <div class="Picture2_container">
                 <img class="Picture2" src="images/Mike.jpg.jpg" alt= "Picture of Mike Duffin - Lead Security Advisor">
                 <h2>Mike Duffin - Security Advisor</h2>
-                <p3>Mike joined the company shortly after it was founded, assuming the role of lead security advisor coming from a background in cyber security.</p3>
-                <p3>Don't let his size fool you. Mike has huge ambition, motivation and humour to boot earning himself the nickname: fun-size.</p3>
+                <p>Mike joined the company shortly after it was founded, assuming the role of lead security advisor coming from a background in cyber security.</p>
+                <p>Don't let his size fool you. Mike has huge ambition, motivation and humour to boot earning himself the nickname: fun-size.</p>
             </div>
             <div class="Picture3_container">
                 <img class="Picture3" src="images/Joel.jpg" alt= "Picture of Joel Roberts - Software developer">
                 <h2>Joel Roberts - Software Developer</h2>
-                <p3>Joel is the most recent to join the company into the role of Software developer, bringing with him experience which is valuable to the team.</p3>
-                <p3>All we can say more is that we wish we found a better picture for him.</p3>
+                <p>Joel is the most recent to join the company into the role of Software developer, bringing with him experience which is valuable to the team.</p>
+                <p>All we can say more is that we wish we found a better picture for him.</p>
             </div>
         </section> 
-        <section class="video-section">
-            <h1 class="Media">
+        <div class="video-section">
+            <div class="Media">
                 <video class="Video" controls="controls">
                     <source src="video/SampleVideo.mp4" type="video/mp4">
-                </video
-            ></h1>
-        </section>
+                </video>
+            </div>
+        </div>
     </main>
     <footer class="site-footer">
         <div class="wrap">
@@ -103,16 +101,16 @@
             <form method="get" action="404page.html"> <!-- This section of code was adopted from Liz's codepen example @ https://codepen.io/lizcoultersmith/pen/bYZEEB -->
                 <h3 class="form-title">Email us</h3>
                 <div class="form-group">
-                    <label class= "label-form" for="form-input">Name:</label>
-                    <input type="text" id="form-input">
+                    <label class= "label-form" for="form-textarea">Name:</label>
+                    <input type="text" id="form-input1">
                 </div>
                 <div class="form-group">
-                    <label class= "label-form" for="form-input">Email:</label>
-                    <input type="text" id="form-input">
+                    <label class= "label-form" for="form-textarea">Email:</label>
+                    <input type="text" id="form-input2">
                 </div>
                 <div class="form-group">
-                    <label class= "label-form" for="form-input">Subject:</label>
-                    <input type="text" id="form-input">
+                    <label class= "label-form" for="form-textarea">Subject:</label>
+                    <input type="text" id="form-input3">
                 </div>
                 <div class="form-group">
                     <label class= "label-form" for="form-textarea">Please write email below:</label>
@@ -121,16 +119,16 @@
                 <div class="form-group">
                     <fieldset>
                     <legend>Would you like to sign up to our newsletter?</legend>
-                    <div class="option-list">
+                    <div class="option-list"></div>
                         <label class= "label-form"><input type="radio" name="rb1">Yes</label> <br>
                         <label class= "label-form"><input type="radio" name="rb1">No</label> <br>
                     </fieldset>
-                    </div>
+                </div>
                 <button type="submit">Send</button>
             </form>
             <Section class="Details">
                 <h3 class="Address-title">Write to us:</h3>
-                <p4 class="Address">Address: The University of Northampton, Avenue Campus, St George’s Avenue, Northampton, NN2 6JD</p4>
+                <p class="Address">Address: The University of Northampton, Avenue Campus, St George’s Avenue, Northampton, NN2 6JD</p>
                  <!-- This section of code was adopted from google's page @ https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key -->
                 <div id="map"></div>
                 <script>

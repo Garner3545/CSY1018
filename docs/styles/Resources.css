@@ -18,7 +18,6 @@
     background: rgba(0, 0, 0, 0);
     width: 100%;
     height: 90px;
-    position: top; 
     top: 0;
     padding: 2em;
     transition: margin-top 250ms ease-in-out;
@@ -170,7 +169,6 @@
     text-decoration: none;
     list-style: none;
     list-style-type: none;
-    float: center;
     padding: 0;
   }
   
@@ -204,16 +202,11 @@
     text-decoration: none;
     list-style: none;
     list-style-type: none;
-    float: center;
   }
   
   
   /* This section of code was adopted from Liz's codepen example @ https://codepen.io/lizcoultersmith/pen/bYZEEB */
-  
-  .label-form {
-    display: show;
-  }
-  
+
   .form-title {
     margin-top: 0;
   }
@@ -243,6 +236,7 @@
     .Address {
       padding-bottom: 1.5em;
       width: 50%;
+      text-align: left;
     }
   }
 
@@ -312,7 +306,7 @@
     width: 60%;
   }
 
-  p2 {
+  .subheading {
     color: rgb(255, 255, 255);
     font-size: 2.5em;
     line-height: 1.2em;
@@ -339,7 +333,7 @@
 
   .Picture1 {
     width: 750px;
-    height: 550px;
+    height: auto;
     position: relative;
     align-self: center;
     margin-right: -25em;
@@ -370,7 +364,7 @@
     text-decoration: underline;
   }
     
-  p3 {
+  p {
     width: 100%;
     line-height: 1em;
     padding-top: 1em;
@@ -399,7 +393,7 @@
 
   .Picture2 {
     width: 750px;
-    height: 475px;
+    height: auto;
     position: relative;
     align-self: center;
     margin-right: -25em;
@@ -437,7 +431,7 @@
 
   .Picture3 {
     width: 750px;
-    height: 475px;
+    height: auto;
     position: relative;
     align-self: center;
     margin-right: -25em;
@@ -495,6 +489,7 @@
   .Address {
     padding-bottom: 1.5em;
     width: 25%;
+    text-align:left;
   }
   
   #map {
@@ -531,7 +526,6 @@
     padding: 0;
     list-style: none;
     max-height: 600px;
-    overflow: show;
     text-decoration: none;
     list-style-type: none;
     float: Right;
@@ -692,7 +686,7 @@
     width: 60%;
   }
 
-  p2 {
+  .subheading {
     color: rgb(255, 255, 255);
     font-size: 1.5em;
     line-height: 1.2em;
@@ -713,7 +707,6 @@
     margin-top: 8em;
     margin-bottom: 4em;
     padding-bottom: 0em;
-    overflow:auto;
     box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.527);
   }
 
@@ -725,7 +718,7 @@
 
   .Picture1 {
     width: 600px;
-    height: 400px;
+    height: auto;
     position: relative;
     align-self: auto;
     box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.527);
@@ -739,7 +732,6 @@
     width: 100%;
     padding: 15em 4em 3em 4em;
     background-color: rgba(2, 151, 250, 0.589);
-    height: 80em;
     color: rgb(255, 255, 255);
   }
 
@@ -755,7 +747,7 @@
     text-decoration: underline;
   }
     
-  p3 {
+  p {
     width: 100%;
     line-height: 1em;
     padding-top: 1em;
@@ -777,7 +769,6 @@
     margin-top: 8em;
     margin-bottom: 4em;
     padding-bottom: 0em;
-    overflow:auto;
     box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.527);
   }
 
@@ -789,7 +780,7 @@
 
   .Picture2 {
     width: 600px;
-    height: 400px;
+    height: auto;
     position: relative;
     align-self: auto;
     box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.527);
@@ -803,7 +794,6 @@
     width: 100%;
     padding: 15em 4em 3em 4em;
     background-color: rgba(49, 49, 49, 0.589);
-    height: 80em;
     color: rgb(255, 255, 255);
   }
 
@@ -829,7 +819,7 @@
 
   .Picture3 {
     width: 600px;
-    height: 400px;
+    height: auto;
     position: relative;
     align-self: auto;
     box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.527);
@@ -843,7 +833,6 @@
     width: 100%;
     padding: 15em 4em 3em 4em;
     background-color: rgba(250, 109, 2, 0.541);
-    height: 80em;
     color: rgb(255, 255, 255);
   }
 
@@ -887,6 +876,7 @@
   .Address {
     padding-bottom: 1.5em;
     width: 25%;
+    text-align: left;
   }
   
   #map {
@@ -907,14 +897,7 @@ and (max-width: 850px)
   }
 
   body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    font-family: sans-serif;
-    line-height: 1.68em;
     font-size: 80%;
-    position: relative; 
-    padding-top: 0;
   }
 
   .Icon {
@@ -981,7 +964,7 @@ and (max-width: 850px)
     width: 60%;
   }
 
-  p2 {
+  .subheading {
     color: rgb(255, 255, 255);
     font-size: 1.5em;
     line-height: 1.2em;
@@ -1001,7 +984,6 @@ and (max-width: 850px)
     margin-top: 10em;
     margin-bottom: 4em;
     padding-bottom: 0em;
-    overflow:auto;
     box-shadow: 10px 10px 20px rgba(82, 82, 82, 0.342);
   }
 
@@ -1013,7 +995,7 @@ and (max-width: 850px)
 
   .Picture1 {
     width: 475px;
-    height: 300px;
+    height: auto;
     position: relative;
     align-self: auto;
     box-shadow: 10px 10px 20px rgba(82, 82, 82, 0.342);
@@ -1028,7 +1010,6 @@ and (max-width: 850px)
     width: 100%;
     padding: 15em 4em 3em 4em;
     background-color: rgba(2, 151, 250, 0.589);
-    height: 100em;
     color: rgb(255, 255, 255);
   }
 
@@ -1044,7 +1025,7 @@ and (max-width: 850px)
     text-decoration: underline;
   }
     
-  p3 {
+  p {
     width: 100%;
     line-height: 1.6em;
     margin:0;
@@ -1066,7 +1047,6 @@ and (max-width: 850px)
     margin-top: 10em;
     margin-bottom: 4em;
     padding-bottom: 0em;
-    overflow:auto;
     box-shadow: 10px 10px 10px rgba(82, 82, 82, 0.342);
   }
 
@@ -1077,7 +1057,7 @@ and (max-width: 850px)
 
   .Picture2 {
     width: 475px;
-    height: 300px;
+    height: auto;
     position: relative;
     align-self: auto;
     box-shadow: 10px 10px 20px rgba(82, 82, 82, 0.342);
@@ -1091,7 +1071,6 @@ and (max-width: 850px)
     width: 100%;
     padding: 15em 4em 3em 4em;
     background-color: rgba(49, 49, 49, 0.589);
-    height: 100em;
     color: rgb(255, 255, 255);
   }
 
@@ -1108,7 +1087,6 @@ and (max-width: 850px)
     margin-top: 10em;
     margin-bottom: 4em;
     padding-bottom: 0em;
-    overflow:auto;
     box-shadow: 10px 10px 10px rgba(82, 82, 82, 0.342);
   }
 
@@ -1119,7 +1097,7 @@ and (max-width: 850px)
 
   .Picture3 {
   width: 475px;
-  height: 300px;
+  height: auto;
   position: relative;
   align-self: auto;
   box-shadow: 10px 10px 20px rgba(82, 82, 82, 0.342);
@@ -1131,9 +1109,8 @@ and (max-width: 850px)
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    padding: 15em 4em 0 4em;
+    padding: 15em 4em 3em 4em;
     background-color: rgba(250, 109, 2, 0.541);
-    height: 100em;
     color: rgb(255, 255, 255);
   }
 
@@ -1187,14 +1164,7 @@ and (max-width: 850px)
   }
 
   body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    font-family: sans-serif;
-    line-height: 1.68em;
     font-size: 50%;
-    position: relative; 
-    padding-top: 0;
   }
 
   .container {
@@ -1213,7 +1183,7 @@ and (max-width: 850px)
   .Icon {
     font-size: 15em;
     margin-top: -1.75em;
-    color: rgba(68, 68, 68, 0.589)(250, 109, 2, 0.541)
+    color: rgba(68, 68, 68, 0.589);
   }
 
   h1 {
@@ -1260,7 +1230,7 @@ and (max-width: 850px)
     width: 75%;
   }
 
-  p2 {
+  .subheading {
     color: rgb(255, 255, 255);
     font-size: 1.5em;
     line-height: 1.2em;
@@ -1280,7 +1250,6 @@ and (max-width: 850px)
     margin-top: 4em;
     margin-bottom: 4em;
     padding-bottom: 0em;
-    overflow:auto;
     box-shadow: 10px 10px 10px rgba(82, 82, 82, 0.342);
 }
 
@@ -1292,7 +1261,7 @@ and (max-width: 850px)
 
   .Picture1 {
     width: 250px;
-    height: 150px;
+    height: auto;
     position: relative;
     align-self: auto;
     box-shadow: 10px 10px 10px rgba(82, 82, 82, 0.342);
@@ -1307,7 +1276,6 @@ and (max-width: 850px)
     width: 100%;
     padding: 15em 4em 3em 4em;
     background-color: rgba(2, 151, 250, 0.589);
-    height: 90em;
     color: rgb(255, 255, 255);
   }
 
@@ -1322,7 +1290,7 @@ and (max-width: 850px)
     text-decoration: underline;
   }
     
-  p3 {
+  p {
     width: 100%;
     Padding-top: 1em;
     align-self: auto;
@@ -1355,7 +1323,7 @@ and (max-width: 850px)
 
   .Picture2 {
     width: 250px;
-    height: 150px;
+    height: auto;
     position: relative;
     align-self: auto;
     box-shadow: 10px 10px 10px rgba(82, 82, 82, 0.342);
@@ -1369,7 +1337,6 @@ and (max-width: 850px)
     width: 100%;
     padding: 15em 4em 3em 4em;
     background-color: rgba(49, 49, 49, 0.589);
-    height: 90em;
     color: rgb(255, 255, 255);
   }
 
@@ -1397,7 +1364,7 @@ and (max-width: 850px)
 
   .Picture3 {
     width: 250px;
-    height: 150px;
+    height: auto;
     position: relative;
     align-self: auto;
     box-shadow: 10px 10px 10px rgba(82, 82, 82, 0.342);
@@ -1409,9 +1376,8 @@ and (max-width: 850px)
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    padding: 15em 4em 0 4em;
+    padding: 15em 4em 3em 4em;
     background-color: rgba(250, 109, 2, 0.541);
-    height: 90em;
     color: rgb(255, 255, 255);
   }
 
