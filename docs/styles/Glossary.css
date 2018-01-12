@@ -24,7 +24,11 @@ body {
 .header {
   background: rgba(0, 0, 0, 0.281);
   width: 100%;
+<<<<<<< HEAD
+  height: 110px;
+=======
   height: 90px;
+>>>>>>> refs/remotes/origin/master
   top: 0;
   padding: 2em;
   transition: margin-top 250ms ease-in-out;
@@ -45,7 +49,11 @@ em {
 
 #diamond {
   height: auto;
+<<<<<<< HEAD
+  width:200px;
+=======
   width:40px;
+>>>>>>> refs/remotes/origin/master
 }
 
 .main-logo-link2 {
@@ -73,7 +81,11 @@ em {
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0);
   justify-content: center;
+<<<<<<< HEAD
+  margin-top:2em;
+=======
   margin-top:0;
+>>>>>>> refs/remotes/origin/master
   overflow:auto;
   z-index: 3;
 }
@@ -83,7 +95,10 @@ ul {
   list-style: none;
   list-style-type: none;
   height: 30px;
+<<<<<<< HEAD
+=======
   margin-top: 0;
+>>>>>>> refs/remotes/origin/master
   float: Right;
 }
 
@@ -144,7 +159,11 @@ a:hover {
   display:flex;
   flex-direction: column;
   width:100%;
+<<<<<<< HEAD
+  margin-top: -660px;
+=======
   margin-top: -680px;
+>>>>>>> refs/remotes/origin/master
   position:relative;
   text-align: center;
   vertical-align: middle;
@@ -264,7 +283,10 @@ li.nav-list-items {
   list-style-type: none;
 }
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> refs/remotes/origin/master
 /* This section of code was adopted from Liz's codepen example @ https://codepen.io/lizcoultersmith/pen/bYZEEB */
 
 .form-title {
@@ -297,7 +319,11 @@ button {
 
 .Address {
   padding-bottom: 1.5em;
+<<<<<<< HEAD
+  width: 50%;
+=======
   width: 25%;
+>>>>>>> refs/remotes/origin/master
 }
 
 #map {
@@ -352,7 +378,10 @@ button {
   .header .main-logo {
     display: block;
     float: left;
+<<<<<<< HEAD
+=======
     padding: 10px 20px;
+>>>>>>> refs/remotes/origin/master
     text-decoration: none;
   }
   
@@ -367,6 +396,10 @@ button {
     cursor: pointer;
     float: right;
     padding: 30px 24px;
+<<<<<<< HEAD
+    margin-top: 1em;
+=======
+>>>>>>> refs/remotes/origin/master
     position: relative;
     user-select: none;
     background-color: rgba(0, 0, 0, 0.747);
@@ -471,6 +504,11 @@ button {
   .Picture1_container {
     display: flex;
     position: relative;
+<<<<<<< HEAD
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+=======
     width: 50%;
     flex-direction: column;
     flex-wrap: wrap;
@@ -555,6 +593,7 @@ button {
     display: flex;
     position: relative;
     width: 50%;
+>>>>>>> refs/remotes/origin/master
     margin-top: -50px;
     flex-direction: column;
     flex-wrap: wrap;
@@ -586,7 +625,13 @@ button {
   .Picture2_container {
     display: flex;
     position: relative;
+<<<<<<< HEAD
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+=======
     width: 50%;
+>>>>>>> refs/remotes/origin/master
     margin-top: -50px;
     float: left;
     flex-direction: column;
@@ -638,7 +683,11 @@ button {
   
   .Address {
     padding-bottom: 1.5em;
+<<<<<<< HEAD
+    width: 50%;
+=======
     width: 25%;
+>>>>>>> refs/remotes/origin/master
     text-align: left;
   }
   
@@ -743,7 +792,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     display:flex;
     flex-direction: column;
     width:100%;
+<<<<<<< HEAD
+    margin-top: -660px;
+=======
     margin-top: -680px;
+>>>>>>> refs/remotes/origin/master
     position:relative;
     text-align: center;
     vertical-align: middle;

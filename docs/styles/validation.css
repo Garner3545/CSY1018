@@ -17,7 +17,11 @@ body {
 .header {
   background: rgba(0, 0, 0, 0);
   width: 100%;
+<<<<<<< HEAD
+  height: 110px;
+=======
   height: 90px;
+>>>>>>> refs/remotes/origin/master
   top: 0;
   padding: 2em;
   transition: margin-top 250ms ease-in-out;
@@ -38,8 +42,13 @@ em {
 }
 
 #diamond {
+<<<<<<< HEAD
+  height:auto; 
+  width:200px;
+=======
   height:45px; 
   width:50px;
+>>>>>>> refs/remotes/origin/master
 }
 
 .main-logo-link2 {
@@ -66,7 +75,11 @@ em {
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0);
   justify-content: center;
+<<<<<<< HEAD
+  margin-top:2em;
+=======
   margin-top:0;
+>>>>>>> refs/remotes/origin/master
   overflow:auto;
   z-index: 3;
 }
@@ -272,7 +285,11 @@ button {
     justify-content: center;
     vertical-align: middle;
     height: 910px;
+<<<<<<< HEAD
+    margin-top: -890px;
+=======
     margin-top: -910px;
+>>>>>>> refs/remotes/origin/master
     color:rgb(255, 255, 255);
     background: linear-gradient( rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0));
     background: -webkit-linear-gradient( rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0));
@@ -285,7 +302,11 @@ button {
     height: auto;
     width: 100%;
     padding-left: 1em;
+<<<<<<< HEAD
+    background-color: rgba(250, 109, 2, 0.541);
+=======
     background-color: rgba(160, 160, 160, 0.753);
+>>>>>>> refs/remotes/origin/master
     justify-content: flex-start;
     text-align: left;
     flex-direction: column;
@@ -314,21 +335,40 @@ button {
 
   .w3c-link {
     border:0;
+<<<<<<< HEAD
+    width:150px;
+=======
     width:250px;
+>>>>>>> refs/remotes/origin/master
     height:auto;
   }
 
   .content {
+<<<<<<< HEAD
+    height: 3000px;
+    background-image: url(../images/colourhex2.jpg);
+=======
     height: 4000px;
     background-image: url(../images/colourhex.jpg);
+>>>>>>> refs/remotes/origin/master
     background-size: cover;
     background-position: center;
   }
 
+<<<<<<< HEAD
+  .container2 {
+    height: 600px;
+  }
+
+  .section1_container {
+    display: flex;
+    width: 33%;
+=======
   .section1_container {
     display: flex;
     width: 50%;
     height: 600px;
+>>>>>>> refs/remotes/origin/master
     float: left;
     position: relative;
     flex-direction: row;
@@ -339,9 +379,14 @@ button {
   .picture-container1 {
     display: flex;
     width: 50%;
+<<<<<<< HEAD
+    margin: 0 25% 0 25%;
+    padding: 2em;
+=======
     margin: 0 15% 0 35%;
     padding:2em;
     z-index: 1;
+>>>>>>> refs/remotes/origin/master
     align-content: center;
     justify-content: center;
     background: rgba(250, 109, 2, 0.815);
@@ -354,8 +399,13 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
+<<<<<<< HEAD
+    margin: 0 25% 0 25%;
+    padding: 1em;
+=======
     margin: 0 15% 0 35%;
     padding: 5em 4em 3em 4em;
+>>>>>>> refs/remotes/origin/master
     background: rgba(250, 109, 2, 0.815);
     color: rgb(255, 255, 255);
     box-shadow: 25px 25px 25px rgba(82, 82, 82, 0.342);
@@ -367,7 +417,11 @@ button {
     padding-bottom: 1em;
     align-self: auto;
     text-align: center;
+<<<<<<< HEAD
+    font-size: 2em;
+=======
     font-size: 4em;
+>>>>>>> refs/remotes/origin/master
     line-height: 1.2em;
     text-transform: uppercase;
     text-decoration: underline;
@@ -385,8 +439,12 @@ button {
 
   .section2_container {
     display: flex;
+<<<<<<< HEAD
+    width: 33%;
+=======
     width: 50%;
     height: 600px;
+>>>>>>> refs/remotes/origin/master
     float: left;
     position: relative;
     flex-direction: row;
@@ -397,9 +455,14 @@ button {
   .picture-container2 {
     display: flex;
     width: 50%;
+<<<<<<< HEAD
+    margin: 0 25% 0 25%;
+    padding:2em;
+=======
     margin: 0 35% 0 15%;
     padding:2em;
     z-index: 1;
+>>>>>>> refs/remotes/origin/master
     align-content: center;
     justify-content: center;
     background: rgba(49, 49, 49, 0.815);
@@ -412,8 +475,13 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
+<<<<<<< HEAD
+    margin: 0 25% 0 25%;
+    padding: 1em;
+=======
     margin: 0 35% 0 15%;
     padding: 4em 4em 0em 4em;
+>>>>>>> refs/remotes/origin/master
     background-color: rgba(49, 49, 49, 0.815);
     color: rgb(255, 255, 255);
     box-shadow: 25px 25px 25px rgba(82, 82, 82, 0.342);
@@ -421,8 +489,12 @@ button {
 
   .section3_container {
     display: flex;
+<<<<<<< HEAD
+    width: 33%;
+=======
     width: 50%;
     height: 600px;
+>>>>>>> refs/remotes/origin/master
     float: left;
     position: relative;
     flex-direction: row;
@@ -433,12 +505,20 @@ button {
   .picture-container3 {
     display: flex;
     width: 50%;
+<<<<<<< HEAD
+    margin: 0 25% 0 25%;
+    padding: 2em;
+    align-content: center;
+    justify-content: center;
+    background: rgba(2, 151, 250, 0.815);
+=======
     margin: 0 15% 0 35%;
     padding:2em;
     z-index: 1;
     align-content: center;
     justify-content: center;
     background: rgba(49, 49, 49, 0.815);
+>>>>>>> refs/remotes/origin/master
     box-shadow: 25px 25px 25px rgba(82, 82, 82, 0.342);
   }
 
@@ -448,9 +528,15 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
+<<<<<<< HEAD
+    margin: 0 25% 0 25%;
+    padding: 1em;
+    background-color: rgba(2, 151, 250, 0.815);
+=======
     margin: 0 15% 0 35%;
     padding: 5em 4em 0em 4em;
     background-color: rgba(49, 49, 49, 0.815);
+>>>>>>> refs/remotes/origin/master
     color: rgb(255, 255, 255);
     box-shadow: 25px 25px 25px rgba(82, 82, 82, 0.342);
   }
@@ -459,7 +545,10 @@ button {
   .section4_container {
     display: flex;
     width: 50%;
+<<<<<<< HEAD
+=======
     height: 600px;
+>>>>>>> refs/remotes/origin/master
     float: left;
     position: relative;
     flex-direction: row;
@@ -469,9 +558,15 @@ button {
 
   .picture-container4 {
     display: flex;
+<<<<<<< HEAD
+    width: 33%;
+    margin: 0 19% 0 48%;
+    padding: 2em;
+=======
     width: 50%;
     margin: 0 35% 0 15%;
     padding:2em;
+>>>>>>> refs/remotes/origin/master
     align-content: center;
     justify-content: center;
     background: rgba(2, 151, 250, 0.815);
@@ -483,9 +578,15 @@ button {
     position: relative;
     flex-direction: column;
     flex-wrap: wrap;
+<<<<<<< HEAD
+    width: 33%;
+    margin: 0 19% 0 48%;
+    padding: 1em;
+=======
     width: 50%;
     margin: 0 35% 0 15%;
     padding: 2em 4em 0em 4em;
+>>>>>>> refs/remotes/origin/master
     background-color: rgba(2, 151, 250, 0.815);
     color: rgb(255, 255, 255);
     box-shadow: 25px 25px 25px rgba(82, 82, 82, 0.342);
@@ -494,15 +595,31 @@ button {
   .section5_container {
     display: flex;
     width: 50%;
+<<<<<<< HEAD
+    float: left;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10em;
+=======
     height: 600px;
     margin: 12em 25% 0 25%;
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
+>>>>>>> refs/remotes/origin/master
   }
 
   .picture-container5 {
     display: flex;
+<<<<<<< HEAD
+    width: 33%;
+    margin: 0em 48% 0 19%;
+    align-content: center;
+    justify-content: center;
+    background: rgba(250, 109, 2, 0.815);
+    padding: 2em;
+=======
     width: 50%;
     margin: 12em 25% 0 25%;
     z-index: 1;
@@ -510,6 +627,7 @@ button {
     justify-content: center;
     background: rgba(49, 49, 49, 0.815);
     padding-top: 2em;
+>>>>>>> refs/remotes/origin/master
     box-shadow: 25px 25px 25px rgba(82, 82, 82, 0.342);
   }
 
@@ -518,10 +636,17 @@ button {
     position: relative;
     flex-direction: column;
     flex-wrap: wrap;
+<<<<<<< HEAD
+    width: 33%;
+    margin: 0 48% 0 19%;
+    padding: 1em;
+    background-color: rgba(250, 109, 2, 0.815);
+=======
     width: 50%;
     margin: 0 25% 0 25%;
     padding: 5em 4em 0em 4em;
     background-color: rgba(49, 49, 49, 0.815);
+>>>>>>> refs/remotes/origin/master
     color: rgb(255, 255, 255);
     box-shadow: 25px 25px 25px rgba(82, 82, 82, 0.342);
   }
@@ -532,22 +657,36 @@ button {
     width: 80%;
     margin-right: 20%;
     justify-content: flex-end;
+<<<<<<< HEAD
+    margin-top: 40em;
+    margin-bottom: -40em;
+=======
     margin-top: 20em;
     margin-bottom: -20em;
+>>>>>>> refs/remotes/origin/master
     z-index: 1;
   }
 
   .pic {
+<<<<<<< HEAD
+    height: 425px;
+    width: 400px;
+=======
     height: 400px;
     width: 400px;
     box-shadow: 25px 25px 25px rgba(82, 82, 82, 0.342);
+>>>>>>> refs/remotes/origin/master
   }
 
   .reflection-section {
     display: flex;
     height: auto;
     width: 50%;
+<<<<<<< HEAD
+    margin: 30em 25% 4em 25%;
+=======
     margin: 10em 25% 4em 25%;
+>>>>>>> refs/remotes/origin/master
     padding-left: 1em;
     background-color: rgba(250, 109, 2, 0.815);
     justify-content: flex-start;
@@ -677,7 +816,10 @@ button {
   .header .main-logo {
     display: block;
     float: left;
+<<<<<<< HEAD
+=======
     padding: 10px 20px;
+>>>>>>> refs/remotes/origin/master
     text-decoration: none;
   }
   
@@ -692,6 +834,10 @@ button {
     cursor: pointer;
     float: right;
     padding: 30px 24px;
+<<<<<<< HEAD
+    margin-top: 1em;
+=======
+>>>>>>> refs/remotes/origin/master
     position: relative;
     user-select: none;
     background-color: rgba(0, 0, 0, 0.747);
@@ -771,7 +917,11 @@ button {
     justify-content: center;
     vertical-align: middle;
     height: 910px;
+<<<<<<< HEAD
+    margin-top: -890px;
+=======
     margin-top: -910px;
+>>>>>>> refs/remotes/origin/master
     color:rgb(255, 255, 255);
     background: linear-gradient( rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0));
     background: -webkit-linear-gradient( rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0));
@@ -784,7 +934,11 @@ button {
     height: auto;
     width: 100%;
     padding-left: 1em;
+<<<<<<< HEAD
+    background-color: rgba(250, 109, 2, 0.541);
+=======
     background-color: rgba(160, 160, 160, 0.753);
+>>>>>>> refs/remotes/origin/master
     justify-content: flex-start;
     text-align: left;
     flex-direction: column;
@@ -1050,7 +1204,11 @@ button {
 
   .pic {
     height: 375px;
+<<<<<<< HEAD
+    width: 350px;
+=======
     width: 375px;
+>>>>>>> refs/remotes/origin/master
   }
   .reflection-section {
     display: flex;
@@ -1171,7 +1329,11 @@ and (max-width: 1250px)
     justify-content: center;
     vertical-align: middle;
     height: 910px;
+<<<<<<< HEAD
+    margin-top: -890px;
+=======
     margin-top: -910px;
+>>>>>>> refs/remotes/origin/master
     color:rgb(255, 255, 255);
     background: linear-gradient( rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0));
     background: -webkit-linear-gradient( rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0));
@@ -1185,7 +1347,11 @@ and (max-width: 1250px)
     width: 100%;
     padding-left: 2em;
     padding-top: 2em;
+<<<<<<< HEAD
+    background-color: rgba(250, 109, 2, 0.541);
+=======
     background-color: rgba(160, 160, 160, 0.753);
+>>>>>>> refs/remotes/origin/master
     justify-content: flex-start;
     text-align: left;
     flex-direction: column;
@@ -1216,7 +1382,11 @@ and (max-width: 1250px)
 
   .content {
     height: 4000px;
+<<<<<<< HEAD
+    background-image: url(../images/colourhex2.jpg);
+=======
     background-image: url(../images/colourhex.jpg);
+>>>>>>> refs/remotes/origin/master
     background-repeat:repeat-y;
     background-size: cover;
     background-position: center;
@@ -1418,7 +1588,11 @@ and (max-width: 1250px)
   }
 
   .pic {
+<<<<<<< HEAD
+    height: 325px;
+=======
     height: 300px;
+>>>>>>> refs/remotes/origin/master
     width: 300px;
   }
 
@@ -1429,7 +1603,11 @@ and (max-width: 1250px)
     margin: 10em 7.5% 0em 7.5%;
     padding-left: 1em;
     padding-bottom: 3em;
+<<<<<<< HEAD
+    background-color: rgba(250, 109, 2, 0.815);
+=======
     background-color: rgba(250, 109, 2, 0.541);
+>>>>>>> refs/remotes/origin/master
     justify-content: flex-start;
     text-align: left;
     flex-direction: column;
@@ -1542,7 +1720,11 @@ and (max-width: 1250px)
     height: auto;
     width: 100%;
     padding-left: 1em;
+<<<<<<< HEAD
+    background-color: rgba(250, 109, 2, 0.541);
+=======
     background-color: rgba(160, 160, 160, 0.753);
+>>>>>>> refs/remotes/origin/master
     justify-content: flex-start;
     text-align: left;
     flex-direction: column;
@@ -1567,13 +1749,21 @@ and (max-width: 1250px)
 
   .w3c-link {
     border:0;
+<<<<<<< HEAD
+    width:100px;
+=======
     width:50px;
+>>>>>>> refs/remotes/origin/master
     height:auto;
   }
 
   .content {
     height: 2500px;
+<<<<<<< HEAD
+    background-image: url(../images/colourhex2.jpg);
+=======
     background-image: url(../images/colourhex.jpg);
+>>>>>>> refs/remotes/origin/master
     background-repeat:repeat-y;
     background-size: cover;
     background-position: center;
@@ -1777,7 +1967,11 @@ and (max-width: 1250px)
   }
 
   .pic {
+<<<<<<< HEAD
+    height: 175px;
+=======
     height: 150px;
+>>>>>>> refs/remotes/origin/master
     width: 150px;
   }
 
