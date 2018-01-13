@@ -1138,6 +1138,13 @@ and (max-width: 850px)
     padding-left: 1em;
   }
 
+  .Address {
+    padding-bottom: 1.5em;
+    text-align: left;
+    line-height: 1em;
+    font-size: 1.5em;
+  }
+
   #map {
     height: 150px;
     width: 60%;
@@ -1403,6 +1410,13 @@ and (max-width: 850px)
     background: #191919;
     padding-left: 3em;
     padding-top: 2em;
+  }
+
+  .Address {
+    padding-bottom: 1.5em;
+    text-align: left;
+    line-height: 1em;
+    font-size: 1.5em;
   }
 
   #map {
