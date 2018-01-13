@@ -1107,7 +1107,6 @@ and (max-width: 850px)
   }
 
   .Contact-form {
-    Height: 550px;
     width: 100%;
     justify-content: flex-end;
     align-items: center;
@@ -1376,7 +1375,6 @@ and (max-width: 850px)
   .Contact-form {
     display: flex;
     flex-direction: column;
-    Height: 650px;
     width: 100%;
     justify-content: flex-end;
     align-items: center;
