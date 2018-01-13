@@ -314,7 +314,7 @@ button {
 
   .w3c-link {
     border:0;
-    width:150px;
+    width:100px;
     height:auto;
   }
 
@@ -1517,7 +1517,7 @@ and (max-width: 1250px)
     justify-content: center;
     vertical-align: middle;
     height: 510px;
-    margin-top: -510px;
+    margin-top: -490px;
     color:rgb(255, 255, 255);
     background: linear-gradient( rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0));
     background: -webkit-linear-gradient( rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0));
