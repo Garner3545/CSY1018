@@ -482,19 +482,15 @@
     padding-left: 1em;
   }
   
-  .Address-title {
-    padding-bottom: 0.75em;
-  }
-  
   .Address {
     padding-bottom: 1.5em;
-    width: 25%;
+    width: 50%;
     text-align:left;
   }
   
   #map {
     height: 150px;
-    width: 30%;
+    width: 60%;
   }
 }
 
@@ -859,7 +855,7 @@
   }
 
   .Details {
-    Height: 550px;
+    Height: 500px;
     width: 50%;
     justify-content: center;
     float: left;
@@ -868,19 +864,16 @@
     background: #191919;
     padding-left: 1em;
   }
-  
-  .Address-title {
-    padding-bottom: 0.75em;
-  }
-  
+
   .Address {
     padding-bottom: 1.5em;
     text-align: left;
+    line-height: 1em;
   }
   
   #map {
     height: 150px;
-    width: 80%;
+    width: 50%;
   }
 }
   
@@ -1114,7 +1107,7 @@ and (max-width: 850px)
   }
 
   .Contact-form {
-    Height: 500px;
+    Height: 550px;
     width: 100%;
     justify-content: flex-end;
     align-items: center;
@@ -1148,7 +1141,7 @@ and (max-width: 850px)
 
   #map {
     height: 150px;
-    width: 80%;
+    width: 60%;
   }
 
 }
