@@ -1566,7 +1566,7 @@ and (max-width: 1250px)
   }
 
   .content {
-    height: 2750px;
+    height: 3000px;
     background-image: url(../images/colourhex2.jpg);
     background-repeat:repeat-y;
     background-size: cover;
